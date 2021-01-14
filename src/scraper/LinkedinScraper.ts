@@ -389,8 +389,7 @@ class LinkedinScraper extends (EventEmitter as new () => TypedEmitter<IEventList
             for (const location of query.options!.locations!) {
                 let jobsProcessed = 0;
                 tag = `[${query.query}][${location}]`;
-                logger.info(tag, `Updated new URL, timeout var~`);
-                logger.info(tag, `Starting new query:`, `query="${query.query}"`, `location="${location}"`);
+                logger.info(tag, `Updated new URL, timeout var~ Starting new query:`, `query="${query.query}"`, `location="${location}"`);
 
                 // Open new page in incognito context
                 const page = await this._context!.newPage();
