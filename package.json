@@ -1,0 +1,82 @@
+{
+  "_from": "linkedin-jobs-scraper@^3.0.4",
+  "_id": "linkedin-jobs-scraper@3.0.4",
+  "_inBundle": false,
+  "_integrity": "sha512-gA5FtWpenQXDtKKq2JZ56NxRpd9SXDJcpGIKNsYIGgPw6IIhwUIKQg8CL3g5HtfOAIAs0u6Lu1kzXAaE2rzHHw==",
+  "_location": "/linkedin-jobs-scraper",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "linkedin-jobs-scraper@^3.0.4",
+    "name": "linkedin-jobs-scraper",
+    "escapedName": "linkedin-jobs-scraper",
+    "rawSpec": "^3.0.4",
+    "saveSpec": null,
+    "fetchSpec": "^3.0.4"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/linkedin-jobs-scraper/-/linkedin-jobs-scraper-3.0.4.tgz",
+  "_shasum": "c92324f47d848b139cf7b05ca6223c92670ff5db",
+  "_spec": "linkedin-jobs-scraper@^3.0.4",
+  "_where": "D:\\Work\\new\\linkedin",
+  "author": {
+    "name": "Ludovico Fabbri"
+  },
+  "bugs": {
+    "url": "https://github.com/spinlud/linkedin-jobs-scraper.git/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "debug": "^4.1.1",
+    "puppeteer": "^5.2.1",
+    "puppeteer-extra": "^3.1.15",
+    "puppeteer-extra-plugin-stealth": "^2.6.1",
+    "random-useragent": "^0.4.0"
+  },
+  "deprecated": false,
+  "description": "Scrape public available job offers on Linkedin using headless browser",
+  "devDependencies": {
+    "@types/debug": "^4.1.5",
+    "@types/jest": "^26.0.10",
+    "@types/node": "^14.6.2",
+    "@types/puppeteer": "^3.0.1",
+    "jest": "^26.4.2",
+    "ts-jest": "^26.3.0",
+    "ts-node": "^9.0.0",
+    "typed-emitter": "^1.3.0",
+    "typescript": "^4.0.2"
+  },
+  "homepage": "https://github.com/spinlud/linkedin-jobs-scraper.git#readme",
+  "keywords": [
+    "scraper",
+    "crawler",
+    "Linkedin",
+    "jobs",
+    "puppeteer",
+    "headless",
+    "chrome",
+    "chromium",
+    "text",
+    "text-mining",
+    "data-mining",
+    "machine-learning",
+    "selenium"
+  ],
+  "license": "ISC",
+  "main": "build/index.js",
+  "name": "linkedin-jobs-scraper",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spinlud/linkedin-jobs-scraper.git"
+  },
+  "scripts": {
+    "build": "npm run clean && tsc",
+    "clean": "rm -fr build",
+    "test": "jest"
+  },
+  "types": "build/index.d.ts",
+  "version": "3.0.4"
+}
